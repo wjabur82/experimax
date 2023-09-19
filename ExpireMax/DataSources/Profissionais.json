@@ -1,0 +1,105 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_profissionaises",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_profissionais",
+    "MaxGetRowsCount": 500,
+    "Name": "Profissionais",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criado Por",
+      "createdon": "Criado Em",
+      "createdonbehalfby": "Criado Por (Delegado)",
+      "importsequencenumber": "Número de Sequência da Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Modificado Em",
+      "modifiedonbehalfby": "Modificado Por (Delegado)",
+      "new_cpf": "CPF",
+      "new_datanascimento": "Data Nascimento (new_datanascimento)",
+      "new_datanascimento_t_": "Data Nascimento (new_datanascimento_t_)",
+      "new_email": "Email",
+      "new_idade": "Idade",
+      "new_name": "Nome Completo",
+      "new_profissionais_AsyncOperations": "Tarefas de Sistema",
+      "new_profissionais_BulkDeleteFailures": "Falhas de Eliminação em Massa",
+      "new_profissionais_DuplicateBaseRecord": "Registos Duplicados (new_profissionais_DuplicateBaseRecord)",
+      "new_profissionais_DuplicateMatchingRecord": "Registos Duplicados (new_profissionais_DuplicateMatchingRecord)",
+      "new_Profissionais_Experiencias_new_Experi": "Experiências",
+      "new_profissionais_MailboxTrackingFolders": "Pastas de Monitorização Automática da Caixa de Correio",
+      "new_profissionais_PrincipalObjectAttributeAccesses": "Partilha de Campos",
+      "new_profissionais_ProcessSession": "Sessões de Processo",
+      "new_profissionais_SyncErrors": "Erros de Sincronização",
+      "new_profissionaisid": "Profissionais",
+      "new_rg": "RG",
+      "new_sexo": "Sexo",
+      "new_telefone": "Telefone",
+      "overriddencreatedon": "Registo Criado Em",
+      "owningbusinessunit": "Unidade de Negócio Proprietária",
+      "owningteam": "Equipa Proprietária",
+      "owninguser": "Utilizador Proprietário",
+      "statecode": "Estado",
+      "statuscode": "Razão do Estado",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Profissionais",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Profissionais (Vistas)",
+    "Name": "_new_profissionais_views",
+    "RelatedEntityName": "Profissionais",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "22bd6fbd-ef36-4f51-a681-f20d9f808f62": "Entidades Profissionais Ativas",
+      "8156a320-1cd0-4467-a34f-18c4bb052839": "Vista Localização Avançada de Profissionais",
+      "c881030b-3536-4a37-87e1-90956b5a1b0b": "Vista Associada de Profissionais",
+      "d5daec2b-10cf-4b94-ad10-bc5d1888d71e": "Vista de Pesquisa de Profissionais"
+    }
+  },
+  {
+    "DisplayName": "Estado (Profissionais)",
+    "Name": "new_profissionais_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo",
+      "1": "Inativo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Profissionais"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Profissionais",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Estado (Profissionais)",
+    "Name": "new_profissionais_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo",
+      "2": "Inativo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Profissionais"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Profissionais",
+    "Type": "OptionSetInfo"
+  }
+]

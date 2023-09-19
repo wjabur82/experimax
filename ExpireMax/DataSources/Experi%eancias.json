@@ -1,0 +1,210 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "new_experienciases",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "new_experiencias",
+    "MaxGetRowsCount": 500,
+    "Name": "Experiências",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "createdby": "Criado Por",
+      "createdon": "Criado Em",
+      "createdonbehalfby": "Criado Por (Delegado)",
+      "importsequencenumber": "Número de Sequência da Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Modificado Em",
+      "modifiedonbehalfby": "Modificado Por (Delegado)",
+      "new_area": "Área",
+      "new_datadeconclusao": "Data de Conclusão",
+      "new_datadeinicio": "Data de Início",
+      "new_especializacao": "Especialização",
+      "new_estado": "Estado (new_estado)",
+      "new_Experiencias": "Experiências (new_Experiencias)",
+      "new_experiencias_AsyncOperations": "Tarefas de Sistema",
+      "new_experiencias_BulkDeleteFailures": "Falhas de Eliminação em Massa",
+      "new_experiencias_DuplicateBaseRecord": "Registos Duplicados (new_experiencias_DuplicateBaseRecord)",
+      "new_experiencias_DuplicateMatchingRecord": "Registos Duplicados (new_experiencias_DuplicateMatchingRecord)",
+      "new_experiencias_MailboxTrackingFolders": "Pastas de Monitorização Automática da Caixa de Correio",
+      "new_experiencias_PrincipalObjectAttributeAccesses": "Partilha de Campos",
+      "new_experiencias_ProcessSession": "Sessões de Processo",
+      "new_experiencias_SyncErrors": "Erros de Sincronização",
+      "new_experienciasid": "Experiências (new_experienciasid)",
+      "new_name": "Título do cargo",
+      "new_nivel": "Nível",
+      "new_nomedaempresa": "Nome da Empresa",
+      "new_pais": "País",
+      "overriddencreatedon": "Registo Criado Em",
+      "owningbusinessunit": "Unidade de Negócio Proprietária",
+      "owningteam": "Equipa Proprietária",
+      "owninguser": "Utilizador Proprietário",
+      "statecode": "Estado (statecode)",
+      "statuscode": "Razão do Estado",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário da Conversão UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Experiências",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Experiências (Vistas)",
+    "Name": "_new_experiencias_views",
+    "RelatedEntityName": "Experiências",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "318d74df-1699-4a1f-adab-7e8a2753c5e8": "Entidades Experiências Ativas",
+      "498a5b45-7b34-454c-af52-03c792d81a45": "Vista Localização Avançada de Experiências",
+      "7cc14a3f-15f0-468c-a807-e63ca51ca00c": "Vista de Pesquisa de Experiências",
+      "907dfb18-4f78-4a51-9535-c15e13f59e90": "Vista Associada de Experiências"
+    }
+  },
+  {
+    "DisplayName": "Área",
+    "Name": "new_area",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Opção 1",
+      "100000001": "Opção 2",
+      "100000002": "Opção 3"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_area",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_area",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Especialização",
+    "Name": "new_especializacao",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Opção 1",
+      "100000001": "Opção 2",
+      "100000002": "Opção 3"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_especializacao",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_especializacao",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado",
+    "Name": "new_estado",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Opção 1",
+      "100000001": "Opção 2",
+      "100000002": "Opção 3"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_estado",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_estado",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Estado (Experiências)",
+    "Name": "new_experiencias_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo",
+      "1": "Inativo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Estado (Experiências)",
+    "Name": "new_experiencias_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo",
+      "2": "Inativo"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Nível",
+    "Name": "new_nivel",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Opção 1",
+      "100000001": "Opção 2",
+      "100000002": "Opção 3"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_nivel",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_nivel",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "País",
+    "Name": "new_pais",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Opção 1",
+      "100000001": "Opção 2",
+      "100000002": "Opção 3"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_pais",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_pais",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  }
+]

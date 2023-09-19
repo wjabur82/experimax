@@ -1,0 +1,18 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_new_profissionais_forms",
+      "Namespace": "Profissionais (Formulários)",
+      "Values": {
+        "Informações": "3fb065fc-0284-4e06-b6bc-e70fc57cf5e0"
+      }
+    },
+    {
+      "Kind": "default.cds_new_experiencias_forms",
+      "Namespace": "Experiências (Formulários)",
+      "Values": {
+        "Informações": "b273db35-4228-4ed2-a238-fc52ec4b270b"
+      }
+    }
+  ]
+}
