@@ -135,6 +135,7 @@
     "ListProfissionais",
     "FormProfissionais",
     "ListExperiencias",
-    "FormExperiencias"
+    "FormExperiencias",
+    "Dashboard"
   ]
 }

@@ -1,0 +1,13 @@
+Dashboard As screen:
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    PowerBI1 As powerbi:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        DashboardId: ="4b6116a3-ad2c-454a-8f8f-3f4c7167abc0"
+        Height: =1064
+        Width: =554
+        WorkspaceId: ="7e1ff8bf-0846-4eda-9e53-e26765cf923b"
+        X: =40
+        Y: =40
+        ZIndex: =1
+
