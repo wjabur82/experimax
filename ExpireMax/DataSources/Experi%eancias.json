@@ -20,6 +20,7 @@
       "new_area": "Área",
       "new_datadeconclusao": "Data de Conclusão",
       "new_datadeinicio": "Data de Início",
+      "new_escolaridade": "Escolaridade",
       "new_especializacao": "Especialização",
       "new_estado": "Estado (new_estado)",
       "new_Experiencias": "Experiências (new_Experiencias)",
@@ -80,6 +81,27 @@
     },
     "OptionSetTypeKey": "PicklistType",
     "RelatedColumnInvariantName": "new_area",
+    "RelatedEntityName": "Experiências",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Escolaridade",
+    "Name": "new_escolaridade",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Opção 1",
+      "100000001": "Opção 2",
+      "100000002": "Opção 3"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_escolaridade",
+        "OptionSetReferenceEntityName": "Experiências"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_escolaridade",
     "RelatedEntityName": "Experiências",
     "Type": "OptionSetInfo"
   },
