@@ -1,0 +1,15 @@
+"'Dashboard Experiencias' As screen":
+    LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
+
+    PowerBI2 As powerbi:
+        BorderColor: =RGBA(245, 245, 245, 1)
+        DashboardId: ="3084c959-a895-4bbb-b77c-002efe518d8e"
+        Height: =1088
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=3084c959-a895-4bbb-b77c-002efe518d8e&tileId=9b1a48ce-5676-49aa-9544-712fbe066b7a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1CLVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7fX0%3d"
+        Width: =588
+        WorkspaceId: ="62ee9427-f64b-44f8-b428-15e4068b314b"
+        X: =27
+        Y: =24
+        ZIndex: =1
+
