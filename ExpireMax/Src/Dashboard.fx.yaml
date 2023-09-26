@@ -3,10 +3,12 @@ Dashboard As screen:
 
     PowerBI1 As powerbi:
         BorderColor: =RGBA(245, 245, 245, 1)
-        DashboardId: ="4b6116a3-ad2c-454a-8f8f-3f4c7167abc0"
+        DashboardId: ="b739694e-77ca-4f65-86e2-f2eef5d5bf8e"
         Height: =1064
+        TileUrl: |-
+            ="https://app.powerbi.com/embed?dashboardId=b739694e-77ca-4f65-86e2-f2eef5d5bf8e&tileId=dd65b890-1555-46a3-be2d-e86914921e9a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1CLVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7fX0%3d"
         Width: =554
-        WorkspaceId: ="7e1ff8bf-0846-4eda-9e53-e26765cf923b"
+        WorkspaceId: ="62ee9427-f64b-44f8-b428-15e4068b314b"
         X: =40
         Y: =40
         ZIndex: =1
