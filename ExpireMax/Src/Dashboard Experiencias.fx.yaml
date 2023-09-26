@@ -1,18 +1,6 @@
 "'Dashboard Experiencias' As screen":
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
-    PowerBI2 As powerbi:
-        BorderColor: =RGBA(245, 245, 245, 1)
-        DashboardId: ="3084c959-a895-4bbb-b77c-002efe518d8e"
-        Height: =994
-        TileUrl: |-
-            ="https://app.powerbi.com/embed?dashboardId=3084c959-a895-4bbb-b77c-002efe518d8e&tileId=9b1a48ce-5676-49aa-9544-712fbe066b7a&config=eyJjbHVzdGVyVXJsIjoiaHR0cHM6Ly9XQUJJLUJSQVpJTC1TT1VUSC1CLVBSSU1BUlktcmVkaXJlY3QuYW5hbHlzaXMud2luZG93cy5uZXQiLCJlbWJlZEZlYXR1cmVzIjp7fX0%3d"
-        Width: =588
-        WorkspaceId: ="62ee9427-f64b-44f8-b428-15e4068b314b"
-        X: =27
-        Y: =24
-        ZIndex: =1
-
     Button4 As button:
         BorderColor: =RGBA(0, 0, 0, 0)
         BorderStyle: =BorderStyle.None
@@ -40,4 +28,62 @@
         X: =181
         Y: =1018
         ZIndex: =2
+
+    CompositeColumnChart1 As group:
+        Height: =5
+        Width: =5
+        X: =40
+        Y: =40
+        ZIndex: =3
+
+        Title1 As label:
+            Align: =Align.Center
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            DisplayMode: =DisplayMode.View
+            Font: =Font.'Segoe UI'
+            Height: =52
+            Text: ="Dashboard - Experiências"
+            Width: =560
+            X: =40
+            Y: =40
+            ZIndex: =4
+
+        ColumnChart1 As barChart:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderThickness: =2
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisplayMode: =DisplayMode.View
+            Font: =Font.'Segoe UI'
+            Height: =677
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            ItemColorSet: =[RGBA(17, 141, 255, 1),RGBA(18,35,158, 1), RGBA(230,108,55,1), RGBA(107,0,123,1), RGBA(224,68,167,1), RGBA(116,78,194,1), RGBA(217,179,0,1), RGBA(214,69,80,1), RGBA(25, 114, 120, 1), RGBA(26, 171, 64, 1), RGBA(21, 198, 244, 1)]
+            Items: =ColumnChartSample
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            Size: =24
+            Width: =509
+            X: =91
+            Y: =195
+            ZIndex: =5
+
+        Legend1 As legend:
+            BorderColor: =RGBA(0, 0, 0, 0)
+            BorderThickness: =2
+            Color: =RGBA(50, 49, 48, 1)
+            DisabledBorderColor: =RGBA(0, 0, 0, 0)
+            DisabledColor: =RGBA(161, 159, 157, 1)
+            DisabledFill: =RGBA(225, 223, 221, 1)
+            DisplayMode: =DisplayMode.View
+            Font: =Font.'Segoe UI'
+            Height: =135
+            HoverBorderColor: =RGBA(0, 0, 0, 0)
+            ItemColorSet: =ColumnChart1.ItemColorSet
+            Items: =ColumnChart1.SeriesLabels
+            PressedBorderColor: =RGBA(0, 0, 0, 0)
+            Size: =18
+            Width: =407
+            X: =91
+            Y: =785
+            ZIndex: =6
 
