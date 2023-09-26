@@ -1,4 +1,5 @@
 "'Dashboard Experiencias' As screen":
+    BackgroundImage: =
     LoadingSpinnerColor: =RGBA(0, 120, 212, 1)
 
     Button4 As button:
@@ -56,15 +57,16 @@
             DisabledBorderColor: =RGBA(0, 0, 0, 0)
             DisplayMode: =DisplayMode.View
             Font: =Font.'Segoe UI'
-            Height: =677
+            GridStyle: =GridStyle.All
+            Height: =745
             HoverBorderColor: =RGBA(0, 0, 0, 0)
             ItemColorSet: =[RGBA(17, 141, 255, 1),RGBA(18,35,158, 1), RGBA(230,108,55,1), RGBA(107,0,123,1), RGBA(224,68,167,1), RGBA(116,78,194,1), RGBA(217,179,0,1), RGBA(214,69,80,1), RGBA(25, 114, 120, 1), RGBA(26, 171, 64, 1), RGBA(21, 198, 244, 1)]
             Items: =ColumnChartSample
             PressedBorderColor: =RGBA(0, 0, 0, 0)
             Size: =24
-            Width: =509
-            X: =91
-            Y: =195
+            Width: =560
+            X: =40
+            Y: =111
             ZIndex: =5
 
         Legend1 As legend:
