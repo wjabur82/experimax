@@ -104,7 +104,7 @@
     "DocumentAppType": "Phone",
     "DocumentLayoutHeight": 1136,
     "DocumentLayoutLockOrientation": false,
-    "DocumentLayoutMaintainAspectRatio": false,
+    "DocumentLayoutMaintainAspectRatio": true,
     "DocumentLayoutOrientation": "portrait",
     "DocumentLayoutScaleToFit": true,
     "DocumentLayoutWidth": 640,
@@ -117,7 +117,7 @@
     "Name": "ExperiMax",
     "OriginatingVersion": "1.334",
     "ParserErrorCount": 0,
-    "ShowStatusBar": false
+    "ShowStatusBar": true
   },
   "PublishInfo": {
     "AppName": "ExperiMax",
