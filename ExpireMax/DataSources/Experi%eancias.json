@@ -77,6 +77,10 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "new_area",
         "OptionSetReferenceEntityName": "Experiências"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "new_area",
+        "OptionSetReferenceEntityName": "Experiências_1"
       }
     },
     "OptionSetTypeKey": "PicklistType",
@@ -119,6 +123,10 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "new_especializacao",
         "OptionSetReferenceEntityName": "Experiências"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "new_especializacao",
+        "OptionSetReferenceEntityName": "Experiências_1"
       }
     },
     "OptionSetTypeKey": "PicklistType",
@@ -201,6 +209,10 @@
       "OptionSetReferenceItem0": {
         "OptionSetReferenceColumnName": "new_nivel",
         "OptionSetReferenceEntityName": "Experiências"
+      },
+      "OptionSetReferenceItem1": {
+        "OptionSetReferenceColumnName": "new_nivel",
+        "OptionSetReferenceEntityName": "Experiências_1"
       }
     },
     "OptionSetTypeKey": "PicklistType",

@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr409_new_profissionaises",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr409_new_profissionais",
+    "Name": "Profissionais_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr409_new_profissionais_AsyncOperations": "Trabalhos do Sistema",
+      "cr409_new_profissionais_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr409_new_profissionais_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr409_new_profissionais_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr409_new_profissionais_ProcessSession": "Sessões de Processo",
+      "cr409_new_profissionais_SyncErrors": "Erros de Sincronização",
+      "cr409_new_profissionaisid": "Profissionais",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_codigodoprofissional": "Código do Profissional",
+      "new_cpf": "CPF",
+      "new_cr409_new_experiencias_Profissional_cr409": "Experiências",
+      "new_datanascimento": "Data Nascimento",
+      "new_email": "Email",
+      "new_idade": "Idade",
+      "new_nome": "Nome",
+      "new_rg": "RG",
+      "new_sexo": "Sexo",
+      "new_telefone": "Telefone",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Profissionais_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Profissionais_1 (Modos de exibição)",
+    "Name": "_cr409_new_profissionais_views",
+    "RelatedEntityName": "Profissionais_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "43948231-711f-4ff5-8f74-6b00f3636424": "Exibição de Localização Avançada de Profissionais",
+      "4506029b-af29-4946-b0b8-90eb06cb2a2a": "Profissionais Inativos(as)",
+      "61f7d153-1980-4311-a903-ceb019b3b497": "Exibição Associada de Profissionais",
+      "7e8ad5f8-04a8-4bd1-aaee-bc0d556b9323": "Exibição de Consulta de Profissionais",
+      "89d1b1a9-f59a-41b3-bb5b-3de2e9383c62": "Profissionais Ativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Status (Profissionais_1)",
+    "Name": "cr409_new_profissionais_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Profissionais_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Profissionais_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Profissionais_1)",
+    "Name": "cr409_new_profissionais_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Profissionais_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Profissionais_1",
+    "Type": "OptionSetInfo"
+  }
+]

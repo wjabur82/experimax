@@ -1,7 +1,7 @@
 {
   "DatasetName": "default.cds",
   "EntityName": "Profissionais",
-  "InstanceUrl": "https://experimax.crm2.dynamics.com/",
+  "InstanceUrl": "https://org7ec5b4d2.crm2.dynamics.com/",
   "LocalReferenceDSJson": {
     "entitySetName": "new_profissionaises",
     "logicalName": "new_profissionais"

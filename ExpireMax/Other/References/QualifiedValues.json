@@ -13,6 +13,20 @@
       "Values": {
         "Informações": "b273db35-4228-4ed2-a238-fc52ec4b270b"
       }
+    },
+    {
+      "Kind": "default.cds_cr409_new_profissionais_forms",
+      "Namespace": "Profissionais_1 (Formulários)",
+      "Values": {
+        "Informações": "e6a7b1d4-71cf-4dd1-8146-ff1d076b643e"
+      }
+    },
+    {
+      "Kind": "default.cds_cr409_new_experiencias_forms",
+      "Namespace": "Experiências_1 (Formulários)",
+      "Values": {
+        "Informações": "975bd291-7728-4807-bff8-da7f06f4b614"
+      }
     }
   ]
 }

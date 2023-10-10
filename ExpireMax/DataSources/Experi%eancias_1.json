@@ -1,0 +1,131 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr409_new_experienciases",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr409_new_experiencias",
+    "Name": "Experiências_1",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Proprietário",
+      "cr409_new_experiencias_AsyncOperations": "Trabalhos do Sistema",
+      "cr409_new_experiencias_BulkDeleteFailures": "Falhas da Exclusão em Massa",
+      "cr409_new_experiencias_DuplicateBaseRecord": "Registros Duplicados (cr409_new_experiencias_DuplicateBaseRecord)",
+      "cr409_new_experiencias_DuplicateMatchingRecord": "Registros Duplicados (cr409_new_experiencias_DuplicateMatchingRecord)",
+      "cr409_new_experiencias_MailboxTrackingFolders": "Pastas de Acompanhamento Automático da Caixa de Correio",
+      "cr409_new_experiencias_PrincipalObjectAttributeAccesses": "Compartilhamento de Campo",
+      "cr409_new_experiencias_ProcessSession": "Sessões de Processo",
+      "cr409_new_experiencias_SyncErrors": "Erros de Sincronização",
+      "cr409_new_experienciasid": "Experiências",
+      "createdby": "Criada Por",
+      "createdon": "Data de Criação",
+      "createdonbehalfby": "Criado por (Delegado)",
+      "importsequencenumber": "Número de Sequência de Importação",
+      "modifiedby": "Modificado Por",
+      "modifiedon": "Data de Modificação",
+      "modifiedonbehalfby": "Modificado por (Delegado)",
+      "new_area": "Área",
+      "new_codigodocargo": "Còdigo do cargo",
+      "new_datadeconclusao": "Data de Conclusão",
+      "new_datadeinicio": "Data de Início",
+      "new_especializacao": "Especialização",
+      "new_Estado": "Estado",
+      "new_nivel": "Nível",
+      "new_nomedaempresa": "Nome da Empresa",
+      "new_Profissional": "Profissional",
+      "new_titulodocargo": "Título do cargo",
+      "overriddencreatedon": "Registro Criado em",
+      "owningbusinessunit": "Unidade de Negócios Proprietária",
+      "owningteam": "Equipe Proprietária",
+      "owninguser": "Usuário Proprietário",
+      "statecode": "Status",
+      "statuscode": "Razão do Status",
+      "timezoneruleversionnumber": "Número de Versão da Regra de Fuso Horário",
+      "utcconversiontimezonecode": "Código de Fuso Horário de Conversão de UTC",
+      "versionnumber": "Número da Versão"
+    },
+    "PreferredName": "Experiências_1",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Experiências_1 (Modos de exibição)",
+    "Name": "_cr409_new_experiencias_views",
+    "RelatedEntityName": "Experiências_1",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "2c34a474-92f6-4869-8c31-bacd63d977a6": "Experiências Ativos(as)",
+      "91e5e28b-c678-4e43-9462-9e102f12f60a": "Exibição Associada de Experiências",
+      "9d385344-5588-4ccf-9065-4e6bf12cf479": "Exibição de Localização Avançada de Experiências",
+      "9e97f655-d138-4371-b18c-5ad7e372ca30": "Exibição de Consulta de Experiências",
+      "b5ff7f89-9b89-4a7b-9761-868117118cfa": "Experiências Inativos(as)"
+    }
+  },
+  {
+    "DisplayName": "Status (Experiências_1)",
+    "Name": "cr409_new_experiencias_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Ativo(a)",
+      "1": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Experiências_1"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Experiências_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Razão do Status (Experiências_1)",
+    "Name": "cr409_new_experiencias_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Ativo(a)",
+      "2": "Inativo(a)"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Experiências_1"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Experiências_1",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Título do cargo",
+    "Name": "new_titulodocargo",
+    "OptionSetInfoNameMapping": {
+      "100000000": "Auxiliar",
+      "100000001": "Assistente",
+      "100000002": "Analista",
+      "100000003": "Coordenador",
+      "100000004": "Gerente",
+      "100000005": "Diretor",
+      "100000006": "Presidente",
+      "100000007": "CEO"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": true,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "new_titulodocargo",
+        "OptionSetReferenceEntityName": "Experiências_1"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "new_titulodocargo",
+    "RelatedEntityName": "Experiências_1",
+    "Type": "OptionSetInfo"
+  }
+]
